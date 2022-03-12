@@ -3,16 +3,16 @@
 	<modelVersion>4.0.0</modelVersion>
 	
 	<groupId>com.mt</groupId>
-	<artifactId>maven-web-application</artifactId>
+	<artifactId>seic-web-app</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	
-	<name>maven-web-application</name>
+	<name>seic-web-app</name>
 
-	<description>Maven Web Project for Java Project</description>
+	<description>Maven Web Project for seic Java Project</description>
 
 	<organization>
-		<name>Landmark Technologies</name>
+		<name>SEIC Investments</name>
 		<url>http://landmarktechnologies.com/</url>
 	</organization>
 
@@ -21,9 +21,12 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http:172.31.27.227:9000/</sonar.host.url>
+		
+		<!-- Made changes to Sonar 03/12/2022 -->
+		<sonar.host.url>http:192.168.108.154:9000/</sonar.host.url>
 		<sonar.login>admin</sonar.login>
-		<sonar.password>admin@123</sonar.password>
+		<sonar.password>admin</sonar.password>
+		
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
@@ -93,6 +96,7 @@
 		
 	</dependencies>
 	
+	<!-- Made changes to Nexus 03/12/2022 -->
 	<distributionManagement>
 	    <repository>
 	      <id>nexus</id>
@@ -109,7 +113,7 @@
 	</distributionManagement>
 	
 	<build>
-		<finalName>maven-web-app</finalName>
+		<finalName>seic-web-app</finalName>
 		
 		<plugins>
 			<plugin>
