@@ -17,7 +17,7 @@
 <hr>
 <div style="text-align: center;">
 	<span>
-		<img src="images/mylandmarklogo.jpg" alt="" width="200">
+		<img src="images/log4.png" alt="" width="200">
 	</span>
 	<span style="font-weight: bold;">
 		SEIC Technology, 
