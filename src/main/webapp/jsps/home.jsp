@@ -9,10 +9,10 @@
 </head>
 </head>
 <body>
-<h1 align="center">Welcome to SEIC  Technologies.</h1>
+<h1 align="center">Welcome to SEIC  Technologies</h1>
 <h2 align="center"> We are supporting the Ebay Black Friday Project. Which is true
 	               SEIC Technologies is a software development company. 
-	               Class27 will run from Jan 2, 2022. </h2>
+	               Class27 will run from Apr 2, 2022. </h2>
 	     
 <hr>
 <div style="text-align: center;">
